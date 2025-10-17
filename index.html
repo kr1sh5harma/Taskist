@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="app-header">
+        <h1>📝 My Todo App</h1>
+        <button class="btn" id="theme-toggle">🌙 Dark Mode</button>
+    </header>
+    <h1>Your Todos</h1>
+    <div class="progress-container">
+        <div id="progress-bar"></div>
+        <span id="progress-text"></span>
+    </div>
+    <div id="todos">
+    </div>
+    <div>
+        <input type="text" id="inp" placeholder="Add your todo here">
+        <button class="btn" onclick="addTodo()">Add Todo</button>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
