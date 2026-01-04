@@ -1,4 +1,4 @@
-# 📝 My Todo App
+# 📝 Taskist - a task listing app
 
 A simple, clean, and interactive **Todo List App** built using **HTML, CSS, and JavaScript**.  
 It allows you to **add, edit, delete, mark complete**, and **track your task progress** — all saved locally in your browser.
